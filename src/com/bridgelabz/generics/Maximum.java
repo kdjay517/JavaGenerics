@@ -11,11 +11,11 @@ public class Maximum {
 		Scanner sc = new Scanner(System.in);
 		MaximumTest maximumInteger = new MaximumTest();
 		System.out.println("welcome to find maximum Number");
-		System.out.println("Enter first Number:");
+		System.out.println("Enter first String:");
 		string1 = sc.next();
-		System.out.println("Enter second Number:");
+		System.out.println("Enter second String:");
 		string2 = sc.next();
-		System.out.println("Enter third Number:");
+		System.out.println("Enter third String:");
 		string3 = sc.next();
 		System.out.printf("maximum Number in %s,%s,%s is %s:", string1,string2,string3,maximumInteger.maximum(string1, string2, string3));	
 	}
