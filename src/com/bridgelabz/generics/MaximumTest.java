@@ -2,9 +2,9 @@ package com.bridgelabz.generics;
 
 public class MaximumTest {
 	
-	public Float maximum (Float a, Float b,Float c) {
+	public String maximum (String a, String b,String c) {
 		
-		Float max = a;
+		String max = a;
 		
 		if (b.compareTo(max) > 0)
 			max = b;
