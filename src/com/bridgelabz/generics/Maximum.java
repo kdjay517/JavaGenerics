@@ -17,9 +17,7 @@ public class Maximum {
 		case 3:
 			System.out.printf("\n maximum string in (apple,peach,banana) is %s",
 					MaximumTest.findMaximum("apple", "peach", "banana"));
-
 		}
-
 	}
-
 }
+
