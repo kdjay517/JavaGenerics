@@ -7,5 +7,6 @@ public class Maximum {
 		MaximumTest maximumInteger = new MaximumTest();
 		System.out.println("welcome to find maximum Number");
 		
-	}
+  }
 }
+
