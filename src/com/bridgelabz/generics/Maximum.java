@@ -20,3 +20,8 @@ public class Maximum {
 		System.out.printf("maximum Number in %s,%s,%s is %s:", string1,string2,string3,maximumInteger.maximum(string1, string2, string3));	
 	}
 }
+
+
+
+
+
