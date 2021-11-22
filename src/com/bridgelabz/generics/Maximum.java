@@ -41,7 +41,5 @@ public class Maximum {
 			System.out.printf("\n{ \"Grape\", \"Peach\", \"Mango\", \"Apple\", \"Banana\" } Maximum String is:%s",stringResult2);
 			System.out.printf("\n{ \"Mango\", \"Peach\", \"Apple\", \"Grape\", \"Banana\" } Maximum String is:%s",stringResult3);
 		}
-
 	}
-
 }
