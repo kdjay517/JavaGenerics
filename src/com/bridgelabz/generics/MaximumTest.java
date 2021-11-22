@@ -5,7 +5,6 @@ public class MaximumTest<E extends Comparable<E>> {
     public MaximumTest(E[] inputArray) {
         this.inputArray = inputArray;
     }
-
     public static <E extends Comparable<E>> E findMaximum(E[] inputArray) {
         E max = inputArray[0];
         for (E element : inputArray) {
@@ -15,5 +14,6 @@ public class MaximumTest<E extends Comparable<E>> {
         }
         return max;
     }
+
 
 
