@@ -1,17 +1,11 @@
 package com.bridgelabz.generics;
 
-public class MaximumTest<E extends Comparable> {
-
+public class MaximumTest<E extends Comparable<E>> {
     E[] inputArray;
     public MaximumTest(E[] inputArray) {
         this.inputArray = inputArray;
     }
-
-    public E findMaximum() {
-        E result = findMaximum(inputArray);
-        return result;
-    }
-    public static <E extends Comparable> E findMaximum(E[] inputArray) {
+    public static <E extends Comparable<E>> E findMaximum(E[] inputArray) {
         E max = inputArray[0];
         for (E element : inputArray) {
             if (element.compareTo(max) > 0) {
@@ -21,4 +15,5 @@ public class MaximumTest<E extends Comparable> {
         return max;
     }
 
-}
+
+
