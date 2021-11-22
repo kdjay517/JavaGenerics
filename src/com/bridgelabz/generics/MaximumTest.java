@@ -13,5 +13,5 @@ public class MaximumTest {
 		
 		return max;
 	}
-
 }
+
