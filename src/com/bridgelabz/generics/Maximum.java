@@ -18,5 +18,8 @@ public class Maximum {
 		System.out.println("Enter third Number:");
 		num3 = sc.nextFloat();
 		System.out.printf("maximum Number in %.2f,%.2f,%.2f is %.2f:", num1,num2,num3,maximumInteger.maximum(num1, num2, num3));	
-	}
-}
+	}	
+ }
+
+
+
