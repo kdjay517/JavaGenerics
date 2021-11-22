@@ -18,5 +18,7 @@ public class Maximum {
 		System.out.println("Enter third Number:");
 		num3 = sc.nextInt();
 		System.out.printf("maximum Number in %d,%d,%d is %d:", num1,num2,num3,maximumInteger.maximum(num1, num2, num3));	
-	}
+	}		
+ }
 }
+
