@@ -30,9 +30,13 @@ public class Maximum {
 				break;
 			case 3:
 				System.out.printf("\n maximum string in (apple,peach,banana) is %s",Maximum.maximum("apple", "peach", "banana"));
-
-		}
-				
+		}		
 	}
-
 }
+
+
+
+
+
+
+
